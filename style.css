@@ -217,6 +217,17 @@ img {
   justify-content: center;
 }
 
+/* hidde contents */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
 .tab-content {
   padding: 3rem;
   background-color: #000;
