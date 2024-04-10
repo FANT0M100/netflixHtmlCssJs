@@ -1,5 +1,6 @@
 :root {
   --primary-color: #e50914;
+  --dark-color: #141414;
 }
 
 * {
@@ -144,4 +145,9 @@ img {
   font-size: 1rem;
   padding: 0.8rem 1.3rem;
   text-transform: uppercase;
+}
+
+/* TABS */
+.tabs {
+  background-color: var(--dark-color);
 }
